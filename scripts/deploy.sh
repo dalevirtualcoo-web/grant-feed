@@ -86,10 +86,15 @@ print(f"Parsing complete. Added {len(new_leads)} new unique leads to database.")
 
 echo "Step C: Re-compiling storefront HTML..."
 python scripts/build_portal.py
+python scripts/compile_calendar.py
 
-echo "Step D: Automating deployment to GitHub Pages..."
+echo "Step D: Compiling and dispatching outreach campaigns..."
+python scripts/generate_outreach.py
+python scripts/send_outreach.py
+
+echo "Step E: Automating deployment to GitHub Pages..."
 if [ -d ".git" ]; then
-    git add data/index.html data/leads_master.json
+    git add data/index.html data/leads_master.json data/grant_calendar.ics data/outreach_queue.json
     
     # Check if there are changes before committing
     if ! git diff-index --quiet HEAD --; then
