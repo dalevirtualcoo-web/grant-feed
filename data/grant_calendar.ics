@@ -1,0 +1,209 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Giles Industries//Grant Intelligence Feed//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Free Grant Deadlines Feed
+X-WR-TIMEZONE:UTC
+X-WR-CALDESC:Real-time federal grant opportunity deadlines. Upgrade to premium for full streams.
+BEGIN:VEVENT
+UID:grant-P12AC10113-deadline@gilesindustries.com
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20261231
+SUMMARY:DEADLINE: P12AC10113 - Vegetation Interns...
+DESCRIPTION:Grant ID: P12AC10113\nIssuing Agency: National Park Service\n\nThis is a public, open-access grant tracker provided by Giles Industries.\n\nUpgrade to our Premium Feed to unlock full application links and locked 7-figure opportunities: https://dalevirtualcoo-web.github.io/grant-feed/data/index.html#pricing
+URL;VALUE=URI:https://www.grants.gov/search-grants.html?oppId=141593
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:grant-PAR-25-274-deadline@gilesindustries.com
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261117
+SUMMARY:DEADLINE: PAR-25-274 - Feasibility Clinical Trials of Mind and Body Interventions f...
+DESCRIPTION:Grant ID: PAR-25-274\nIssuing Agency: National Institutes of Health\n\nThis is a public, open-access grant tracker provided by Giles Industries.\n\nUpgrade to our Premium Feed to unlock full application links and locked 7-figure opportunities: https://dalevirtualcoo-web.github.io/grant-feed/data/index.html#pricing
+URL;VALUE=URI:https://www.grants.gov/search-grants.html?oppId=357305
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:grant-PAR-24-276-deadline@gilesindustries.com
+DTSTART;VALUE=DATE:20260714
+DTEND;VALUE=DATE:20260714
+SUMMARY:DEADLINE: PAR-24-276 - Data Coordinating Center for NCCIH Multi-Site Investigator-I...
+DESCRIPTION:Grant ID: PAR-24-276\nIssuing Agency: National Institutes of Health\n\nThis is a public, open-access grant tracker provided by Giles Industries.\n\nUpgrade to our Premium Feed to unlock full application links and locked 7-figure opportunities: https://dalevirtualcoo-web.github.io/grant-feed/data/index.html#pricing
+URL;VALUE=URI:https://www.grants.gov/search-grants.html?oppId=356726
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:grant-PAR-25-268-deadline@gilesindustries.com
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261117
+SUMMARY:DEADLINE: PAR-25-268 - Investigator Initiated Clinical Trials of Complementary and ...
+DESCRIPTION:Grant ID: PAR-25-268\nIssuing Agency: National Institutes of Health\n\nThis is a public, open-access grant tracker provided by Giles Industries.\n\nUpgrade to our Premium Feed to unlock full application links and locked 7-figure opportunities: https://dalevirtualcoo-web.github.io/grant-feed/data/index.html#pricing
+URL;VALUE=URI:https://www.grants.gov/search-grants.html?oppId=357303
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:grant-PAR-25-155-deadline@gilesindustries.com
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261019
+SUMMARY:DEADLINE: PAR-25-155 - Limited Competition: Small Grant Program for the NCATS Clini...
+DESCRIPTION:Grant ID: PAR-25-155\nIssuing Agency: National Institutes of Health\n\nThis is a public, open-access grant tracker provided by Giles Industries.\n\nUpgrade to our Premium Feed to unlock full application links and locked 7-figure opportunities: https://dalevirtualcoo-web.github.io/grant-feed/data/index.html#pricing
+URL;VALUE=URI:https://www.grants.gov/search-grants.html?oppId=357658
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:grant-PAR-25-144-deadline@gilesindustries.com
+DTSTART;VALUE=DATE:20280107
+DTEND;VALUE=DATE:20280107
+SUMMARY:DEADLINE: PAR-25-144 - Dissemination and Implementation Research in Health (R01 Cli...
+DESCRIPTION:Grant ID: PAR-25-144\nIssuing Agency: National Institutes of Health\n\nThis is a public, open-access grant tracker provided by Giles Industries.\n\nUpgrade to our Premium Feed to unlock full application links and locked 7-figure opportunities: https://dalevirtualcoo-web.github.io/grant-feed/data/index.html#pricing
+URL;VALUE=URI:https://www.grants.gov/search-grants.html?oppId=356893
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:grant-PAR-25-143-deadline@gilesindustries.com
+DTSTART;VALUE=DATE:20280107
+DTEND;VALUE=DATE:20280107
+SUMMARY:DEADLINE: PAR-25-143 - Dissemination and Implementation Research in Health (R21 Cli...
+DESCRIPTION:Grant ID: PAR-25-143\nIssuing Agency: National Institutes of Health\n\nThis is a public, open-access grant tracker provided by Giles Industries.\n\nUpgrade to our Premium Feed to unlock full application links and locked 7-figure opportunities: https://dalevirtualcoo-web.github.io/grant-feed/data/index.html#pricing
+URL;VALUE=URI:https://www.grants.gov/search-grants.html?oppId=356920
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:grant-PAR-25-233-deadline@gilesindustries.com
+DTSTART;VALUE=DATE:20280107
+DTEND;VALUE=DATE:20280107
+SUMMARY:DEADLINE: PAR-25-233 - Dissemination and Implementation Research in Health (R03 Cli...
+DESCRIPTION:Grant ID: PAR-25-233\nIssuing Agency: National Institutes of Health\n\nThis is a public, open-access grant tracker provided by Giles Industries.\n\nUpgrade to our Premium Feed to unlock full application links and locked 7-figure opportunities: https://dalevirtualcoo-web.github.io/grant-feed/data/index.html#pricing
+URL;VALUE=URI:https://www.grants.gov/search-grants.html?oppId=356907
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:grant-PAR-25-221-deadline@gilesindustries.com
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270107
+SUMMARY:DEADLINE: PAR-25-221 - Population Approaches to Reducing Alcohol-related Cancer Ris...
+DESCRIPTION:Grant ID: PAR-25-221\nIssuing Agency: National Institutes of Health\n\nThis is a public, open-access grant tracker provided by Giles Industries.\n\nUpgrade to our Premium Feed to unlock full application links and locked 7-figure opportunities: https://dalevirtualcoo-web.github.io/grant-feed/data/index.html#pricing
+URL;VALUE=URI:https://www.grants.gov/search-grants.html?oppId=357021
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:grant-RFA-CA-24-026-deadline@gilesindustries.com
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20260928
+SUMMARY:DEADLINE: RFA-CA-24-026 - National Cancer Institute Youth Enjoy Science Research Educa...
+DESCRIPTION:Grant ID: RFA-CA-24-026\nIssuing Agency: National Institutes of Health\n\nThis is a public, open-access grant tracker provided by Giles Industries.\n\nUpgrade to our Premium Feed to unlock full application links and locked 7-figure opportunities: https://dalevirtualcoo-web.github.io/grant-feed/data/index.html#pricing
+URL;VALUE=URI:https://www.grants.gov/search-grants.html?oppId=355297
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:grant-RFA-OD-24-007-deadline@gilesindustries.com
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260701
+SUMMARY:DEADLINE: RFA-OD-24-007 - INCLUDE Predoctoral to Postdoctoral Fellow Transition Award ...
+DESCRIPTION:Grant ID: RFA-OD-24-007\nIssuing Agency: National Institutes of Health\n\nThis is a public, open-access grant tracker provided by Giles Industries.\n\nUpgrade to our Premium Feed to unlock full application links and locked 7-figure opportunities: https://dalevirtualcoo-web.github.io/grant-feed/data/index.html#pricing
+URL;VALUE=URI:https://www.grants.gov/search-grants.html?oppId=352577
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:grant-PAR-23-228-deadline@gilesindustries.com
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260925
+SUMMARY:DEADLINE: PAR-23-228 - National Institute of General Medical Sciences Predoctoral B...
+DESCRIPTION:Grant ID: PAR-23-228\nIssuing Agency: National Institutes of Health\n\nThis is a public, open-access grant tracker provided by Giles Industries.\n\nUpgrade to our Premium Feed to unlock full application links and locked 7-figure opportunities: https://dalevirtualcoo-web.github.io/grant-feed/data/index.html#pricing
+URL;VALUE=URI:https://www.grants.gov/search-grants.html?oppId=350485
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:grant-PAR-25-286-deadline@gilesindustries.com
+DTSTART;VALUE=DATE:20280107
+DTEND;VALUE=DATE:20280107
+SUMMARY:DEADLINE: PAR-25-286 - Neuromodulation/Neurostimulation Device Development for Ment...
+DESCRIPTION:Grant ID: PAR-25-286\nIssuing Agency: National Institutes of Health\n\nThis is a public, open-access grant tracker provided by Giles Industries.\n\nUpgrade to our Premium Feed to unlock full application links and locked 7-figure opportunities: https://dalevirtualcoo-web.github.io/grant-feed/data/index.html#pricing
+URL;VALUE=URI:https://www.grants.gov/search-grants.html?oppId=357308
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:grant-RFA-MH-25-105-deadline@gilesindustries.com
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260701
+SUMMARY:DEADLINE: RFA-MH-25-105 - BRAIN Initiative: Production and distribution facilities for...
+DESCRIPTION:Grant ID: RFA-MH-25-105\nIssuing Agency: National Institutes of Health\n\nThis is a public, open-access grant tracker provided by Giles Industries.\n\nUpgrade to our Premium Feed to unlock full application links and locked 7-figure opportunities: https://dalevirtualcoo-web.github.io/grant-feed/data/index.html#pricing
+URL;VALUE=URI:https://www.grants.gov/search-grants.html?oppId=352511
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:grant-PAR-25-101-deadline@gilesindustries.com
+DTSTART;VALUE=DATE:20270811
+DTEND;VALUE=DATE:20270811
+SUMMARY:DEADLINE: PAR-25-101 - Cutting-Edge Basic Research Awards (CEBRA) (R21 Clinical Tri...
+DESCRIPTION:Grant ID: PAR-25-101\nIssuing Agency: National Institutes of Health\n\nThis is a public, open-access grant tracker provided by Giles Industries.\n\nUpgrade to our Premium Feed to unlock full application links and locked 7-figure opportunities: https://dalevirtualcoo-web.github.io/grant-feed/data/index.html#pricing
+URL;VALUE=URI:https://www.grants.gov/search-grants.html?oppId=357941
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:grant-PAR-25-347-deadline@gilesindustries.com
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260907
+SUMMARY:DEADLINE: PAR-25-347 - Substance Use/Substance Use Disorder Dissertation Research A...
+DESCRIPTION:Grant ID: PAR-25-347\nIssuing Agency: National Institutes of Health\n\nThis is a public, open-access grant tracker provided by Giles Industries.\n\nUpgrade to our Premium Feed to unlock full application links and locked 7-figure opportunities: https://dalevirtualcoo-web.github.io/grant-feed/data/index.html#pricing
+URL;VALUE=URI:https://www.grants.gov/search-grants.html?oppId=357974
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:grant-PAR-25-247-deadline@gilesindustries.com
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260925
+SUMMARY:DEADLINE: PAR-25-247 - Institutional Training Programs to Advance Translational Res...
+DESCRIPTION:Grant ID: PAR-25-247\nIssuing Agency: National Institutes of Health\n\nThis is a public, open-access grant tracker provided by Giles Industries.\n\nUpgrade to our Premium Feed to unlock full application links and locked 7-figure opportunities: https://dalevirtualcoo-web.github.io/grant-feed/data/index.html#pricing
+URL;VALUE=URI:https://www.grants.gov/search-grants.html?oppId=357710
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:grant-PAR-25-317-deadline@gilesindustries.com
+DTSTART;VALUE=DATE:20270508
+DTEND;VALUE=DATE:20270508
+SUMMARY:DEADLINE: PAR-25-317 - Risk and Protective Factors of Family Health and Family Leve...
+DESCRIPTION:Grant ID: PAR-25-317\nIssuing Agency: National Institutes of Health\n\nThis is a public, open-access grant tracker provided by Giles Industries.\n\nUpgrade to our Premium Feed to unlock full application links and locked 7-figure opportunities: https://dalevirtualcoo-web.github.io/grant-feed/data/index.html#pricing
+URL;VALUE=URI:https://www.grants.gov/search-grants.html?oppId=357713
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:grant-NOAA-NMFS-FHQ-2024-27611-deadline@gilesindustries.com
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20260930
+SUMMARY:DEADLINE: NOAA-NMFS-FHQ-2024-27611 - FY 2024 - 2026 Broad Agency Announcement (BAA), National Mar...
+DESCRIPTION:Grant ID: NOAA-NMFS-FHQ-2024-27611\nIssuing Agency: DOC NOAA - ERA Production\n\nThis is a public, open-access grant tracker provided by Giles Industries.\n\nUpgrade to our Premium Feed to unlock full application links and locked 7-figure opportunities: https://dalevirtualcoo-web.github.io/grant-feed/data/index.html#pricing
+URL;VALUE=URI:https://www.grants.gov/search-grants.html?oppId=355706
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:grant-PAR-25-156-deadline@gilesindustries.com
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20260928
+SUMMARY:DEADLINE: PAR-25-156 - Limited Competition: High Impact Specialized Innovation Prog...
+DESCRIPTION:Grant ID: PAR-25-156\nIssuing Agency: National Institutes of Health\n\nThis is a public, open-access grant tracker provided by Giles Industries.\n\nUpgrade to our Premium Feed to unlock full application links and locked 7-figure opportunities: https://dalevirtualcoo-web.github.io/grant-feed/data/index.html#pricing
+URL;VALUE=URI:https://www.grants.gov/search-grants.html?oppId=357634
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR
