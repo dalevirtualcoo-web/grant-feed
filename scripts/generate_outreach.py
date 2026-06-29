@@ -167,14 +167,14 @@ def generate_outreach_templates():
             f"directly with your team's Outlook or Apple calendar, you can subscribe to our free iCal feed:\n"
             f"https://dalevirtualcoo-web.github.io/grant-feed/data/grant_calendar.ics\n\n"
             f"If {org} lacks the direct internal capacity or bandwidth to assemble "
-            f"the proposal package before the {deadline} cutoff, our consulting team at Giles Industries "
+            f"the proposal package before the {deadline} cutoff, our consulting team at Giles Grant Intelligence (GGI) "
             f"assembles turnkey, high-scoring application packages on a value-play basis. Let me know if you would like "
             f"to schedule a quick call to discuss proposal development.\n\n"
             f"Best of luck with your funding cycles this season.\n\n"
             f"Best regards,\n\n"
             f"Zac Giles\n"
-            f"Managing Director, Giles Industries\n"
-            f"bubbagiles@icloud.com"
+            f"Managing Director, Giles Grant Intelligence (GGI)\n"
+            f"grants@gilesindustries.com"
         )
         
         outreach_queue.append({

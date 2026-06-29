@@ -40,7 +40,7 @@ def compile_newsletter():
     md = []
     md.append(f"# Premium Grant Intelligence Digest")
     md.append(f"**Curated High-Value Funding Opportunities for Nonprofits**")
-    md.append(f"**Release Date**: {current_date} | *Giles Industries Automated Intelligence Layer*\n")
+    md.append(f"**Release Date**: {current_date} | *Giles Grant Intelligence (GGI)*\n")
     md.append("---")
     md.append("\n## High-Value Opportunities This Week\n")
     
@@ -66,7 +66,7 @@ def compile_newsletter():
             md.append(f"- **Direct Application Link**: [Apply on Grants.gov]({url})")
             md.append("\n---")
             
-    md.append("\n\n*This digest is compiled automatically. For premium custom matching or custom integration assistance, contact your Giles Industries Virtual COO representative.*")
+    md.append("\n\n*This digest is compiled automatically. For premium custom matching or custom integration assistance, contact your Giles Grant Intelligence (GGI) representative at grants@gilesindustries.com.*")
 
     # Save to output_path
     os.makedirs(os.path.dirname(output_path), exist_ok=True)

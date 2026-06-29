@@ -97,7 +97,7 @@ if [ -d ".git" ]; then
     git add data/index.html data/leads_master.json data/grant_calendar.ics data/outreach_queue.json
     
     # Check if there are changes before committing
-    if ! git diff-index --quiet HEAD --; then
+    if ! git diff-index --quiet --cached HEAD --; then
         git commit -m "Automated daily grant intelligence update: $(date +'%Y-%m-%d')"
         
         # Check if origin remote exists before pushing

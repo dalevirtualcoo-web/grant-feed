@@ -75,8 +75,8 @@ def build_portal():
                     <span class="text-white text-xl font-bold font-serif">G</span>
                 </div>
                 <div>
-                    <span class="font-bold tracking-tight text-slate-900 block text-lg font-serif">Giles Industries</span>
-                    <span class="text-xs text-indigo-600 font-medium tracking-widest uppercase">Grant Intelligence Feed</span>
+                    <span class="font-bold tracking-tight text-slate-900 block text-lg font-serif">Giles Grant Intelligence</span>
+                    <span class="text-xs text-indigo-600 font-medium tracking-widest uppercase">Giles Industries Subsidiary</span>
                 </div>
             </div>
             <div class="flex items-center gap-4">
@@ -227,21 +227,53 @@ def build_portal():
                     </div>
 
                     <!-- Beautiful Paywall Overlay -->
-                    <div class="absolute inset-0 flex items-end justify-center bg-gradient-to-t from-slate-50 via-slate-50/95 to-transparent pb-12">
-                        <div id="pricing" class="w-full max-w-md bg-white border border-slate-200 rounded-3xl p-8 shadow-2xl text-center relative z-10 glass-card">
-                            <span class="px-3 py-1 text-xs font-semibold text-indigo-700 bg-indigo-50 rounded-full inline-block mb-4 tracking-wider uppercase">Institutional Access</span>
+                    <div class="absolute inset-0 flex items-end justify-center bg-gradient-to-t from-slate-50 via-slate-50/98 to-transparent pb-12">
+                        <div id="pricing" class="w-full max-w-lg bg-white border border-slate-200 rounded-3xl p-8 shadow-2xl text-center relative z-10 glass-card mx-auto">
+                            <span class="px-3 py-1 text-xs font-semibold text-indigo-700 bg-indigo-50 rounded-full inline-block mb-4 tracking-wider uppercase">Institutional Plans</span>
                             <h3 class="text-2xl font-bold text-slate-950 font-serif mb-2">Unlock All Active Grant Streams</h3>
-                            <p class="text-sm text-slate-600 mb-6 leading-relaxed">
-                                Get immediate access to the full premium list, real-time Slack/Telegram notifications, and automatic weekly downloadable digests formatted for your executive team.
+                            <p class="text-sm text-slate-600 mb-8 leading-relaxed max-w-md mx-auto">
+                                Join dozens of non-profits extracting federal budgets. Select the tier that matches your organization's development needs.
                             </p>
-                            <div class="mb-6">
-                                <span class="text-4xl font-extrabold text-slate-950">$29</span>
-                                <span class="text-slate-500 font-medium"> / month</span>
+                            
+                            <!-- Tier Cards Stack -->
+                            <div class="space-y-4 mb-6 text-left">
+                                <!-- Professional Tier -->
+                                <div class="p-4 border-2 border-indigo-600 bg-indigo-50/30 rounded-2xl relative overflow-hidden">
+                                    <div class="absolute top-0 right-0 bg-indigo-600 text-white text-[10px] font-bold px-3 py-0.5 rounded-bl-lg uppercase tracking-wider">Most Popular</div>
+                                    <div class="flex justify-between items-center mb-1">
+                                        <span class="font-bold text-slate-900 text-base">Professional Feed</span>
+                                        <div class="text-right">
+                                            <span class="font-extrabold text-slate-950 text-xl">$29</span>
+                                            <span class="text-slate-500 text-xs font-medium">/mo</span>
+                                        </div>
+                                    </div>
+                                    <p class="text-xs text-slate-600 leading-relaxed mb-3">
+                                        Full access to all 20+ live tracked grants, direct application URLs, and the GGI Weekly Newsletter.
+                                    </p>
+                                    <a href="{stripe_link}" class="w-full py-2 px-4 bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-semibold rounded-lg block text-center transition duration-150 shadow-md shadow-indigo-100">
+                                        Subscribe to Professional Feed
+                                    </a>
+                                </div>
+                                
+                                <!-- Enterprise Tier -->
+                                <div class="p-4 border border-slate-200 hover:border-slate-300 bg-white rounded-2xl transition">
+                                    <div class="flex justify-between items-center mb-1">
+                                        <span class="font-bold text-slate-900 text-base">Enterprise Advisory</span>
+                                        <div class="text-right">
+                                            <span class="font-extrabold text-slate-950 text-xl">$199</span>
+                                            <span class="text-slate-500 text-xs font-medium">/mo</span>
+                                        </div>
+                                    </div>
+                                    <p class="text-xs text-slate-600 leading-relaxed mb-3">
+                                        Everything in Professional, plus custom keyword filtering and a monthly 30-minute funding strategy call.
+                                    </p>
+                                    <a href="mailto:grants@gilesindustries.com?subject=Inquiry: Enterprise Advisory Plan" class="w-full py-2 px-4 bg-slate-900 hover:bg-slate-950 text-white text-xs font-semibold rounded-lg block text-center transition duration-150">
+                                        Contact sales for Enterprise
+                                    </a>
+                                </div>
                             </div>
-                            <a href="{stripe_link}" class="w-full py-3 px-4 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-xl block transition duration-200 shadow-lg shadow-indigo-200 hover:shadow-xl">
-                                Unlock Unlimited Real-Time Grant Streams
-                            </a>
-                            <p class="text-xs text-slate-400 mt-3 font-medium">Cancel anytime. 7-day money-back guarantee.</p>
+                            
+                            <p class="text-xs text-slate-400 font-medium">All plans feature cancel-anytime terms and a 7-day money-back guarantee.</p>
                         </div>
                     </div>
 
@@ -276,6 +308,17 @@ def build_portal():
                     </div>
                 </div>
 
+                <!-- Grant Calendar Subscription Widget -->
+                <div class="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
+                    <h3 class="font-bold text-slate-950 text-lg font-serif mb-2">📅 Free Grant Deadline Calendar</h3>
+                    <p class="text-xs text-slate-500 mb-4 leading-relaxed">
+                        Never miss a proposal cutoff. Subscribe to our free real-time iCal feed to sync federal deadlines directly with Apple, Google, or Outlook calendars.
+                    </p>
+                    <a href="https://dalevirtualcoo-web.github.io/grant-feed/data/grant_calendar.ics" class="w-full text-center py-2.5 px-4 bg-indigo-50 hover:bg-indigo-100 text-indigo-700 font-semibold rounded-xl block text-sm transition duration-150 border border-indigo-100">
+                        Add to Calendar (iCal Feed)
+                    </a>
+                </div>
+
                 <!-- Strategic Promotion Widget -->
                 <div class="bg-gradient-to-br from-indigo-900 to-indigo-950 text-white rounded-2xl p-6 shadow-sm border border-indigo-950 relative overflow-hidden">
                     <div class="absolute -right-12 -bottom-12 w-32 h-32 bg-indigo-800 rounded-full opacity-30 blur-2xl"></div>
@@ -284,7 +327,7 @@ def build_portal():
                     <p class="text-sm text-indigo-100 leading-relaxed mb-4 opacity-90">
                         Our virtual experts assemble bulletproof application packages for qualified non-profits to secure 7-figure federal funding.
                     </p>
-                    <a href="mailto:bubbagiles@icloud.com" class="text-sm font-bold text-white hover:text-indigo-200 underline flex items-center gap-1">
+                    <a href="mailto:grants@gilesindustries.com" class="text-sm font-bold text-white hover:text-indigo-200 underline flex items-center gap-1">
                         Book a Consultation <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
                     </a>
                 </div>
@@ -297,7 +340,7 @@ def build_portal():
     <!-- Footer -->
     <footer class="bg-white border-t border-slate-200 mt-16 py-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm text-slate-500">
-            <p>&copy; 2026 Giles Industries. Powered by autonomous Hermes-Agent pipelines. All rights reserved.</p>
+            <p>&copy; 2026 Giles Industries. Real-time federal grant monitoring network. All rights reserved.</p>
         </div>
     </footer>
 
